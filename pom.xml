@@ -8,6 +8,14 @@
     <artifactId>Travis_Demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.16</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
